@@ -72,8 +72,7 @@ element.appendChild(ul)
 
 Creating elements and then appending them into the DOM is a multi-step process. It's also the safest and most reliable. Most repeated code can be removed by using functions and loops. It's The Right Way.
 
-That said, there's another route which is commonly used, `Element.innerHTML`. If you can get a node with
-`getElementById` or `querySelector` or any of the modes you've learned, you can imagine that you've gotten that node's opening and closing HTML tag. You can update that node's `innerHTML` property with a string of HTML and it will be _just as if_ you changed the HTML source for that node.
+That said, there's another route which is commonly used, `Element.innerHTML`. If you can get a node with `getElementById` or `querySelector` or any of the modes you've learned, you can imagine that you've gotten that node's opening and closing HTML tag. You can update that node's `innerHTML` property with a string of HTML and it will be _just as if_ you changed the HTML source for that node.
 
 ```js
 let element = document.querySelector("p#greeting");
